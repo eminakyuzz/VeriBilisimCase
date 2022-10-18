@@ -1,0 +1,36 @@
+﻿@model VeriBilisimCase.Models.IL
+
+<form method="post" asp-action="Create">
+    <div class="borderp-3">
+        <div class="form-group row">
+            <h2 class="text-black-50 p1-3">Ekle İl</h2>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">İl Adı :</span>
+                    <input type="text" asp-for="Ad" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                
+
+
+                <div class="form-group row">
+                    <div class="col-8 offset-2 row">
+                        <div class="col">
+                            <input type="submit" class="btn btn-info w-75 " value="Oluştur" />
+                        </div>
+                        <div class="col">
+                            <a asp-action="Index" class="btn btn-danger w-75">Geri</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</form>
+
+
